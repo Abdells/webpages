@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.homepage {
+  background-image: url("images/hacker.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.second {
+  background-image: url("images/space.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.endpage {
+  background-color: rgba(5, 4, 75, 0.918);
+}
+
+.header {
+  background-color: rgba(190, 187, 187, 0);
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom: 1px solid #cccdcf49;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.endheader {
+  padding-top: 10px;
+}
+.header .nav-link {
+  color: white;
+}
+
+.search {
+  border-left: 1px solid #cccdcf49;
+  color: #fff;
+  padding: 8px 0;
+}
+
+.menu {
+  border-left: 1px solid #cccdcf49;
+  color: #fff;
+  padding: 8px 0;
+}
+
+.main {
+  padding: 20px;
+}
+
+.custom-button {
+  background-color: transparent;
+  padding: 8px 40px;
+  margin: 20px 0 20px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+}
+
+.hr {
+  width: 80%;
+  height: 3px;
+  background-color: #fdfbfb;
+  border: none;
+  margin: 0 auto;
+}
+
+.feed {
+  margin-top: 20px;
+}
+
+img {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  object-fit: scale;
+}
+
+.view {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.button {
+  margin-top: 100px;
+}
+
+.divider {
+  width: 1px;
+  height: 100%;
+  color: #fff;
+  display: inline-block;
+}
+
+.secondmain {
+  padding: 20px 0;
+}
+
+.more {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+}
+
+.title {
+  color: #bbb9b9;
+  font-size: 14px;
+}
+
+.name {
+  display: flex;
+  color: white;
+  background-color: rgba(2, 2, 78, 0.849);
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: rgba(2, 2, 78, 0.849);
+  padding: 30px 0;
+  color: #aca6a6;
+  bottom: 0;
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+}
